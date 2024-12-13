@@ -1,0 +1,16 @@
+一种极简语言，用于MCCPU，目前是我能找到的最简解决方案
+该CPU的指令集：
+nop
+halt
+push=reg
+reg&=pop
+reg=0
+reg=1
+reg&=mem[p]
+mem[p]=reg
+p++;
+p--;
+if(reg)in>>reg
+tmp=reg
+if(reg)out<<tmp
+共13条
